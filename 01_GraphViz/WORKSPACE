@@ -1,7 +1,0 @@
-workspace(name = "graphviz")
-
-new_local_repository(
-    name = "gl",
-    build_file = "tools/gl.BUILD",
-    path = "/usr",
-)

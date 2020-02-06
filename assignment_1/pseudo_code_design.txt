@@ -1,0 +1,26 @@
+save dictionary in a set - maybe a map
+word families in a map
+	example map
+	'----' : 'Ally', 'cool', 'good'
+	'-E--' : 'Beta', 'deal'
+
+- read in the dictionary
+	- loop through all the words and add them to the set
+	- also create a map of word length to words with that length --> maybe just use this map
+- prompt user for word length
+	- check the keys of dictinoary map to see if that length is valid.
+	- print out the dashes for the letters and how many words are left in the family
+- promt for number of guesses
+	- print it out
+- example print out should be
+	--A- guesses remaining: 3 words remaining: 4
+- prompt the user for single letter guesses
+	- check to make sure it's in fact one letter
+	- lowercase it
+	- check to make sure is a letter in the dictionary
+- How to make the families?
+	- Make a map for the families
+	- go through all the words that have the number of letters the user selected
+	- go through the word with the letter and note where the letter appears. 
+		- add the family to the map as the key, and the word as the value
+		

@@ -1,0 +1,1 @@
+clang++ -Wall -std=c++11 evil.cpp -o evil_hang
